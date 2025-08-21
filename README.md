@@ -16,7 +16,7 @@ La página muestra el estado actual del LED y cambia de color según esté encen
 - Arduino IDE
 
 ## Código
-"""
+```
 #include <WiFi.h>
 #include <WebServer.h>
 
@@ -69,4 +69,4 @@ void setup() {
 void loop() {
   server.handleClient();
 }
-"""
+```
